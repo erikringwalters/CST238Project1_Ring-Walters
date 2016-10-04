@@ -13,7 +13,7 @@ private:
 
 public:
 	Course();
-	void setInstructor(string name);
+	void setInstructor(string name);//test test
 	bool addStudent(string name, int id);
 	bool dropStudent(int id);
 	void putScores(int id, double mid1, double mid2);
